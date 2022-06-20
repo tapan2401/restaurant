@@ -1,0 +1,10 @@
+<nav class="nav-bar">
+  <a href="/">Home</a>
+  <a href="/">Food Fusion</a>
+  <% if(!currentUser) { %>
+  <a href="/login">Log In</a>
+  <% } else { %>
+  <a href="/logout">Log Out</a>
+  <% } %>
+</nav>
+<div style="position: absolute; left: 50%"><%= success %><%= error %></div>

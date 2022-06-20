@@ -1,0 +1,59 @@
+/* Main */
+.cuisine {
+  font-size: 1.3rem;
+  margin: 3em 0em;
+  row-gap: 3em;
+  column-gap: 3em;
+}
+.card {
+  font-size: 1.3rem;
+  width: 12em !important;
+  height: 12em !important;
+  border-radius: 0.5em;
+  margin: auto;
+  padding-bottom: 2em;
+  box-shadow: 0em 0.3em 1.5em black;
+  transition: 0.3s ease-in-out;
+}
+.card:hover {
+  box-shadow: 0em 1em 1.5em black;
+}
+
+/* Responsive */
+@media (min-width: 1920px) {
+  .cuisine {
+    font-size: 2.5rem;
+  }
+  .card {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 1024px) {
+  .card {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .cuisine {
+    font-size: 0.8rem;
+  }
+  .card {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 350px) {
+  .cuisine {
+    font-size: 0.5rem;
+  }
+  .card {
+    font-size: 0.6rem;
+  }
+}
+@media (max-width: 320px) {
+  .cuisine {
+    font-size: 0.5rem;
+  }
+  .card {
+    font-size: 1rem;
+  }
+}
